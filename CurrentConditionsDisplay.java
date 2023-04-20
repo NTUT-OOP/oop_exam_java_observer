@@ -1,6 +1,6 @@
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
-	private float temperature = 0;
-	private float humidity = 0;
+	private float temperature;
+	private float humidity;
 	private WeatherData weatherData;
 	
 	public CurrentConditionsDisplay(WeatherData weatherData) {
@@ -9,6 +9,7 @@ public class CurrentConditionsDisplay implements Observer, DisplayElement {
 	}
 	
 	public void update(float temperature, float humidity, float pressure) {
+		this.temperature = temperature;
 		display();
 	}
 	
