@@ -53,4 +53,4 @@ The *StatisticsDisplay* shows the average, max and min temperatue. The output ex
 Avg/Max/Min temperature = 81.0/82.0/80.0
 ```
 
-
+The good news is that the output functions have already been implemented. You don't need to modify them. Enjoy the exam!
