@@ -28,11 +28,11 @@ In this exam there are two main tasks.
    public void removeObserver(Observer o) { }	
    public void notifyObservers() { }
    ```
-   The each function will print 
+   By default, each function will print 
    ```
    Please remove this line and implement ...
    ```
-   by default. Please remove the message and enter your code.
+   Remove the message and enter your code.
 
 
 
